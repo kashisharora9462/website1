@@ -1,0 +1,94 @@
+body{
+    background-color: #212223;
+
+
+
+}
+.titlebar{
+   color: aliceblue;
+  margin-right: 20px;
+  font-size: 25px;
+ text-decoration: none;
+ 
+}
+a{
+    color: aliceblue;
+  /*  text-align: center;
+    display: block;/*CSS text-align property doesn’t work alone to center the tag. Therefore, you must use the “display” property and set its value “block” to center the link.*/
+}
+.small{
+    background-color: rgba(0, 0, 0, 0.641);
+    border: 10px;
+}
+button{
+    background-color: rgb(53, 171, 218);
+    color: aliceblue;
+    font-size: 20px; 
+  padding: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+/*.cover{
+    border-color:rgba(0, 0, 255, 0.463);
+    width: 70%;
+    height: 10%;
+    padding-left: 15%;
+    padding-top: 5%;
+   
+}*/
+
+.cover{
+    border-radius: 10px;
+   border-style: ridge;
+    border-color: rgb(82, 159, 189);
+    background-color: rgba(0, 0, 0, 0.485);
+ margin-left: 40px;
+ margin-top: 20px;
+ margin-right: 40px;
+ margin-bottom: 0px;
+padding-left: 20px;
+padding-bottom: 0px;
+
+
+}
+
+.secondblock{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: aliceblue;
+    margin-bottom: 0;
+   
+}
+.firstpart{
+    width: 50%;
+
+}
+.secondpart{
+    width: 50%;
+  
+}
+
+.image{
+    
+    width: 100%;
+   margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.bottom{
+margin-top: 120px;
+margin-bottom: 0px;
+font-style: normal;
+
+}
+
+a{
+    color:  rgb(53, 171, 218);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
